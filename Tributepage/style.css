@@ -1,0 +1,98 @@
+.name h1{
+
+    font-size:80px;
+    text-align: center;
+    font-family: bold;
+    color:chartreuse;
+}
+.left img{
+
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.navbar p{
+    font-size: 20px;  
+    color: black;
+}
+
+
+.navbar p::first-letter{
+    font-size: 70px;
+    font-family: 'Times New Roman';
+    display: flex;
+    flex-direction: row;
+    height:20px;
+    width:20px;
+    color:yellow;
+}  
+.main{
+    display:flex;
+    flex-direction:row;
+
+}
+.content{
+    display:flex;
+    flex-direction:row;
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.content2{
+    display:flex;
+    flex-direction:row;
+}
+.content2 p{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.content3{
+    display:flex;
+    flex-direction:row;
+}
+.content3 p{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.invention h2{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color: blueviolet;
+
+}
+.variousinventions{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+     flex-wrap: wrap;
+}
+.invent img{
+    padding:2px;
+}
+.awards h2{
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+    color:darkorange;
+}
+
+ .honours table th,td{
+    padding:10px;
+    text-align: center;
+    border:1px solid black;
+    font-size:20px;
+    font-family: 'Times New Roman';
+    margin-left:10px;
+ }
+ .quotes h2{
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+    color:darkblue;
+    font-family:'Times New Roman';
+
+ }
+ 
+ 
