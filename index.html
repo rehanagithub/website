@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Country Guide App</title>
-        <!--Google Fonts-->
-        <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet"/>
-        <!--Stylesheet-->
-        <link rel="stylesheet" href="style.css"/>
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <div class="container">
-            <div class="search-wrapper">
-                <input type="text" id="country-inp" placeholder="Enter a country name here....">
-                <button id="search-btn">Search</button>
-            </div>
-            <div id="result"></div>
-        </div>
-        <!--script-->
-        <script src="script.js"></script>
+
+    <body bgcolor="bisque">
+         
+            <h1 style="text-align: center; color:yellow;">To-Do List</h1>
+            <form id="todoForm" style="text-align: center;">
+            <input id="todoInput" style="color: blue; width: 300px; height: 30px; font-size:30px;">
+            <button type="button" onclick="todoList()" style="width: 200px; height: 40px;font-size: 30px; color: fuchsia; ">Add</button>
+         </form>
+
+         <ol id="todoList" style="font-size: 30px; color:red; vertical-align: center;">
+
+         </ol>
+
+<script src="script.js"></script>
     </body>
 </html>
